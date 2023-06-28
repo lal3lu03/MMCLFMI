@@ -20,7 +20,7 @@ Follow these steps to install NegBio:
 2. Create the virtual environment:
 
    ```bash
-   conda env create -f environment.yml
+   conda env create -f NegBio_env.yml
    ```
 
 3. Copy the MIMIC-CXR specific NegBio code:
