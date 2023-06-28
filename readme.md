@@ -17,6 +17,7 @@ To get started with this project, follow these steps:
 5. Proceed to run the visualization notebook (`visualization.ipynb`) and the metadata preprocessing notebook (`meta_data_pre.ipynb`). These notebooks generate the required data for further analysis and training.
 
 ## File Structure
+```python
 
 The repository is structured as follows:
 
@@ -36,6 +37,7 @@ The repository is structured as follows:
 ├── NegBio
 └── readme.md
 
+```
 
 
 
