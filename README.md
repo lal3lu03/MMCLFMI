@@ -58,9 +58,7 @@ Detailed instructions for running the different components of the project can be
 ## References
 
 - MIMIC-CRX Dataset: [Link](https://www.researchgate.net/publication/330552843_MIMIC-CXR_A_large_publicly_available_database_of_labeled_chest_radiographs)
-- CLIP:
-
- [Link](https://arxiv.org/abs/2103.00020)
+- CLIP: [Link](https://arxiv.org/abs/2103.00020)
 - CLOOB: [Link](https://arxiv.org/abs/2110.11316)
 - NegBio: [Link](https://arxiv.org/abs/1712.05898)
 - CheXzero: [Link](https://doi.org/10.1038/s41551-022-00936-9)
