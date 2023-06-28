@@ -10,7 +10,6 @@ The objective of this project is to apply multi-model contrastive learning techn
 
 Special thanks to Elisabeth Rumetshofer ([GitHub](https://github.com/elirum)) and Andreas Fürst ([GitHub](https://github.com/fuersta)) for their contributions as bachelor thesis supervisors and for their work on the CLOOB repository. Their expertise and guidance were invaluable in the development of this project.
 
-We would also like to acknowledge the MIMIC-CRX Dataset repository for providing the necessary preprocessing code and resources.
 
 ## Getting Started
 
@@ -21,6 +20,10 @@ To get started with this project, follow these steps:
 3. Create a conda environment using the `environment.yml` file provided.
 4. Run `converter.py` to convert DICOM images to JPEG format and save them in the `jpg` folder.
 5. Proceed to run the visualization notebook (`visualization.ipynb`) and the metadata preprocessing notebook (`meta_data_pre.ipynb`). These notebooks generate the required data for further analysis and training.
+6. Next, run the `embedding_cloob.ipynb` and `embedding_clip.ipynb` notebooks to obtain embeddings for the CLOOB and CLIP models, respectively.
+7. Once the embeddings are generated, you can decide to perform a zero-shot classification based on the presence of findings or all symptoms. Adjust the parameters and follow the instructions in the respective notebook (`zero_shot_findings.ipynb` or `zero_shot_all_symptoms.ipynb`) to perform the zero-shot classification accordingly.
+
+Please make sure to follow the instructions in each notebook carefully to ensure a successful execution.
 
 ## File Structure
 
