@@ -49,5 +49,3 @@ bash run_negbio_on_files.sh /db/mimic-cxr/sections negbio-mimic-cxr
 ```
 
 Please exercise caution when executing this script due to the disk space requirements.
-
-If you have any further questions or need assistance, feel free to ask.
