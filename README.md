@@ -6,6 +6,12 @@ This repository contains the code and documentation for the bachelor thesis proj
 
 The objective of this project is to apply multi-model contrastive learning techniques, specifically CLIP and CLOOB, to the MIMIC-CRX dataset. The goal is to achieve similar results as the work conducted by Ekin Tiu et al. in their study called CheXzero.
 
+## Acknowledgements
+
+Special thanks to Elisabeth Rumetshofer ([GitHub](https://github.com/elirum)) and Andreas Fürst ([GitHub](https://github.com/fuersta)) for their contributions as bachelor thesis supervisors and for their work on the CLOOB repository. Their expertise and guidance were invaluable in the development of this project.
+
+We would also like to acknowledge the MIMIC-CRX Dataset repository for providing the necessary preprocessing code and resources.
+
 ## Getting Started
 
 To get started with this project, follow these steps:
@@ -17,10 +23,10 @@ To get started with this project, follow these steps:
 5. Proceed to run the visualization notebook (`visualization.ipynb`) and the metadata preprocessing notebook (`meta_data_pre.ipynb`). These notebooks generate the required data for further analysis and training.
 
 ## File Structure
-```python
 
 The repository is structured as follows:
 
+```
 ├── MultiModel_Contrastive_Learning_for_Medical_Imaging
 │ ├── clip_
 │ ├── data
@@ -36,17 +42,11 @@ The repository is structured as follows:
 │ └── Zero_shot
 ├── NegBio
 └── readme.md
-
 ```
-
-
 
 The `MultiModel_Contrastive_Learning_for_Medical_Imaging` directory contains the main project code, including folders for `clip_`, `data`, `preprocess_dicoms`, `Visualization_preprocessing`, and `Zero_shot`. The `NegBio` folder contains the code and instructions for running the NegBio NLP tool on the MIMIC-CRX dataset.
 
-The `data` directory within the `MultiModel_Contrastive_Learning_for_Medical_Imaging` folder now includes subfolders for `checkpoints`, `csv`, `embedding`, `jpg`, `MIMIC_CXR`, and `model_config`. These subfolders are used for storing checkpoints, CSV files, embeddings, JPEG images, the MIMIC_CXR dataset, and model configurations, respectively.
-
-Please make sure to create these subfolders within the `data` directory and organize your files accordingly.
-
+The `data` directory within the `MultiModel_Contrastive_Learning_for_Medical_Imaging` folder now includes subfolders for `checkpoints`, `csv`, `embedding`, `jpg`, `MIMIC_CXR`, and `model_config`. These subfolders are used for storing checkpoints, CSV files, embeddings, JPEG images, the MIMIC_CXR dataset, and model configurations, respectively. Please make sure to create these subfolders within the `data` directory and organize your files accordingly.
 
 ## Usage
 
@@ -55,7 +55,9 @@ Detailed instructions for running the different components of the project can be
 ## References
 
 - MIMIC-CRX Dataset: [Link](https://www.researchgate.net/publication/330552843_MIMIC-CXR_A_large_publicly_available_database_of_labeled_chest_radiographs)
-- CLIP: [Link](https://arxiv.org/abs/2103.00020)
+- CLIP:
+
+ [Link](https://arxiv.org/abs/2103.00020)
 - CLOOB: [Link](https://arxiv.org/abs/2110.11316)
 - NegBio: [Link](https://arxiv.org/abs/1712.05898)
 - CheXzero: [Link](https://doi.org/10.1038/s41551-022-00936-9)
@@ -63,4 +65,3 @@ Detailed instructions for running the different components of the project can be
 ## Contact Information
 
 For any questions or further information about this project, please contact [Maximilian Hageneder](mailto:max.hageneder@gmail.com).
-
