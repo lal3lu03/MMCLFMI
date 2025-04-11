@@ -1,3 +1,5 @@
+![Project Logo](logo.png)
+
 # MultiModel Contrastive Learning for Medical Images
 
 This repository contains the code and documentation for the bachelor thesis project of Maximilian Hageneder, a student in Artificial Intelligence at the University of Linz. The project aims to utilize the MIMIC-CRX dataset for zero-shot image classification using CLIP and CLOOB models.
