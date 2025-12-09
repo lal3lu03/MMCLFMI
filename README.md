@@ -10,7 +10,8 @@ The objective of this project is to apply multi-model contrastive learning techn
 
 ## Acknowledgements
 
-Special thanks to Elisabeth Rumetshofer ([GitHub](https://github.com/elirum)) and Andreas Fürst ([GitHub](https://github.com/fuersta)) for their contributions as bachelor thesis supervisors and for their work on the CLOOB repository. Their expertise and guidance were invaluable in the development of this project.
+This thesis was officially supervised and graded by Univ.-Prof. Sepp Hochreiter (Institute for Machine Learning, JKU Linz), with co-supervision and invaluable guidance from Elisabeth Rumetshofer ([GitHub](https://github.com/elirum)) and Andreas Fürst ([GitHub](https://github.com/fuersta)), whose work on the CLOOB repository formed an important basis for this project.
+
 
 
 ## Getting Started
